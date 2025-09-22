@@ -27,7 +27,7 @@ spec: # Desired state specification
       containers: # Containers in each Pod
         - name: taskmanager # Container name
           # Docker image from your CI/CD pipeline (update with your DockerHub username)
-          image: tanishshar/task-manager:d75709b3d6f36d29a8478aea51bea986fcfce85f
+          image: tanishshar/task-manager:a85b3f99d682fc27e799bc2f61f0ba0fd0f072d4
           ports: # Ports exposed by container
             - containerPort: 8000 # Port the Flask app listens on
               name: http # Named port for Service reference
